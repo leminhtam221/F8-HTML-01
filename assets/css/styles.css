@@ -44,6 +44,15 @@ body {
   opacity: 0.9;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row.space {
+  justify-content: space-between;
+}
+
 a {
   text-decoration: none;
 }
@@ -134,4 +143,23 @@ a {
   position: absolute;
   bottom: 0;
   right: calc((100% - 1110px) / 2 - 100px);
+}
+
+/* ================= Header ================= */
+.client {
+  margin-top: 79px;
+  padding-top: 43px;
+  padding-bottom: 41px;
+}
+
+.client .desc {
+  margin-top: 16px;
+  color: #7d8589;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.client-logos {
+  margin-top: 70px;
 }
