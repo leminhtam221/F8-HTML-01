@@ -23,6 +23,7 @@ body {
 /* ================= Common ================= */
 .container {
   width: 1110px;
+  max-width: calc(100% - 48px);
   margin-left: auto;
   margin-right: auto;
 }
@@ -39,6 +40,10 @@ body {
   font-size: 1.6rem;
 }
 
+.btn:hover {
+  opacity: 0.9;
+}
+
 a {
   text-decoration: none;
 }
@@ -48,6 +53,7 @@ a {
   height: 100vh;
   padding-top: 38px;
   background-color: var(--blue-1);
+  position: relative;
 }
 
 .header .nav {
@@ -71,6 +77,10 @@ a {
   font-weight: 500;
 }
 
+.header .menu-link:hover {
+  text-decoration: underline;
+}
+
 .header .actions {
   margin-left: auto;
 }
@@ -84,6 +94,44 @@ a {
 .header .btn-sign-up {
   margin-left: 18px;
   padding: 13px 18px;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 1;
+}
+
+.hero {
+  margin-top: 130px;
+  width: 51.4%;
+}
+
+.hero .sub-heading {
+  color: #687690;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.hero .heading {
+  margin-top: 8px;
+  color: #000336;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 118.75%;
+}
+
+.hero .desc {
+  margin-top: 30px;
+  color: #5a6473;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 177.778%;
+}
+
+.hero .action {
+  margin-top: 40px;
+  min-width: 170px;
+}
+
+.hero .hero-img {
+  position: absolute;
+  bottom: 0;
+  right: calc((100% - 1110px) / 2 - 100px);
 }
