@@ -30,14 +30,13 @@ body {
 
 .btn {
   min-width: 100px;
-  padding: 15px 18px;
+  padding: 18.5px 20px;
   display: inline-block;
+  text-align: center;
+  font-size: 1.3rem;
   color: var(--white);
   background: var(--primary);
   border-radius: 12px;
-  text-align: center;
-  line-height: 1.25;
-  font-size: 1.6rem;
 }
 
 .btn:hover {
@@ -51,6 +50,10 @@ body {
 
 .row.space {
   justify-content: space-between;
+}
+
+.row.center {
+  justify-content: center;
 }
 
 a {
@@ -105,6 +108,7 @@ a {
   padding: 13px 18px;
   font-size: 1.4rem;
   line-height: 1;
+  border-radius: 8px;
 }
 
 .hero {
@@ -162,4 +166,80 @@ a {
 
 .client-logos {
   margin-top: 70px;
+}
+
+/* ================= Header ================= */
+.guide {
+  margin-top: 40px;
+  padding-top: 79px;
+  padding-bottom: 79px;
+}
+
+.guide-text-box {
+  text-align: center;
+}
+
+.guide .sub-heading {
+  font-size: 3.5rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.guide .sub-heading::before {
+  content: "";
+  width: 41px;
+  height: 4px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 12px;
+  background: #000339;
+}
+
+.guide .desc {
+  width: 459px;
+  margin: 20px auto 0;
+  color: #5a6473;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 187.5%;
+}
+
+.guide-list {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.guide-item {
+  margin: 0 70px;
+  text-align: center;
+}
+
+.guide-list .title {
+  margin-top: 26px;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.guide-link {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0689ff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.guide-link .icon-arrow {
+  margin-left: 8px;
+}
+
+.guide .btn-action {
+  min-width: 170px;
+  margin-top: 50px;
 }
