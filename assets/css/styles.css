@@ -111,6 +111,8 @@ a {
   border-radius: 8px;
 }
 
+/* ================= Hero ================= */
+
 .hero {
   margin-top: 130px;
   width: 51.4%;
@@ -149,7 +151,7 @@ a {
   right: calc((100% - 1110px) / 2 - 100px);
 }
 
-/* ================= Header ================= */
+/* ================= Client ================= */
 .client {
   margin-top: 79px;
   padding-top: 43px;
@@ -168,7 +170,7 @@ a {
   margin-top: 70px;
 }
 
-/* ================= Header ================= */
+/* ================= Guide ================= */
 .guide {
   margin-top: 40px;
   padding-top: 79px;
