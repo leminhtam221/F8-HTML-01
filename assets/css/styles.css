@@ -8,6 +8,8 @@
   --white: #ffffff;
   --blue-1: #e6f0ff;
   --link: #0689ff;
+
+  --padding-nav: 16px;
 }
 
 html {
@@ -71,14 +73,17 @@ a {
 
 /* ================= Header ================= */
 .header {
-  padding-top: 38px;
+  padding-top: calc(38px - var(--padding-nav));
+  position: sticky;
+  top: calc((38px - var(--padding-nav)) * -1);
+  z-index: 1;
   background-color: var(--blue-1);
-  position: relative;
 }
 
 .header .nav {
   display: flex;
   align-items: center;
+  padding: var(--padding-nav) 0;
 }
 
 .header .logo-img {
@@ -122,9 +127,10 @@ a {
 /* ================= Hero ================= */
 
 .hero {
-  height: 100vh;
+  height: calc(100vh - 94px);
   display: flex;
   align-items: center;
+  position: relative;
   background-color: var(--blue-1);
 }
 
