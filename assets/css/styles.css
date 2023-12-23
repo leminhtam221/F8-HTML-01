@@ -314,7 +314,7 @@ a {
   border-bottom-right-radius: 12px;
 }
 
-.feature-item .title {
+.feature-item .title a {
   color: var(--heading);
   font-size: 2rem;
   font-weight: 600;
