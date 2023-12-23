@@ -4,8 +4,10 @@
 
 :root {
   --primary: #0f1b4c;
+  --heading: #000339;
   --white: #ffffff;
   --blue-1: #e6f0ff;
+  --link: #0689ff;
 }
 
 html {
@@ -48,7 +50,7 @@ body {
   align-items: center;
 }
 
-.row.space {
+.row.space-between {
   justify-content: space-between;
 }
 
@@ -185,6 +187,7 @@ a {
   font-size: 3.5rem;
   font-weight: 600;
   position: relative;
+  color: var(--heading);
 }
 
 .guide .sub-heading::before {
@@ -196,7 +199,7 @@ a {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 12px;
-  background: #000339;
+  background: var(--heading);
 }
 
 .guide .desc {
@@ -244,4 +247,95 @@ a {
 .guide .btn-action {
   min-width: 170px;
   margin-top: 50px;
+}
+
+/* ================= Feature ================= */
+.feature {
+  margin-top: 41px;
+  padding: 110px 0;
+  background: #f5fafe;
+}
+
+.feature .sub-heading {
+  color: var(--heading);
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.feature .box-desc {
+  margin-top: 15px;
+}
+
+.feature .desc {
+  color: #5a6473;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 187.5%;
+}
+
+.feature-link {
+  color: var(--link);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.feature-list {
+  margin-top: 70px;
+  display: flex;
+  gap: 30px;
+}
+
+.feature-item {
+  flex: 1;
+  border-radius: 12px;
+}
+
+.feature-item .thumb {
+  width: 100%;
+  height: 227px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.feature-item .body {
+  padding: 17px 20px 24px;
+  background: var(--white);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.feature-item .title {
+  color: var(--heading);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.feature-item .desc {
+  margin-top: 11px;
+  color: #a3a6ab;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.feature-item .info {
+  margin-top: 20px;
+}
+
+.feature-item .info-item {
+  margin-left: 22px;
+}
+
+.feature-item .info-item:first-child {
+  margin-left: 0;
+}
+
+.feature-item .info-item p {
+  margin-left: 8px;
+  color: #444;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
