@@ -71,7 +71,6 @@ a {
 
 /* ================= Header ================= */
 .header {
-  height: 100vh;
   padding-top: 38px;
   background-color: var(--blue-1);
   position: relative;
@@ -123,7 +122,13 @@ a {
 /* ================= Hero ================= */
 
 .hero {
-  margin-top: 130px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: var(--blue-1);
+}
+
+.hero .info {
   width: 51.4%;
 }
 
