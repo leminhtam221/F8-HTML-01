@@ -359,7 +359,7 @@ a {
   font-weight: 500;
 }
 
-/* ================= Header ================= */
+/* ================= Stats ================= */
 .stats {
   margin-top: 75px;
   padding: 50px;
@@ -502,4 +502,50 @@ a {
   color: #7b8087;
   font-size: 1.8rem;
   font-weight: 500;
+}
+
+/* ================= Subscription ================= */
+.subscription {
+  margin-top: 90px;
+}
+
+.subscription .body {
+  height: 370px;
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  position: relative;
+  border-radius: 20px;
+  background: #063183;
+}
+
+.subscription .info {
+  width: 52.74%;
+  max-width: 100%;
+}
+
+.subscription .sub-heading {
+  color: var(--white);
+  font-size: 3.5rem;
+}
+
+.subscription .desc {
+  margin-top: 15px;
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+}
+
+.subscription .btn-action {
+  min-width: 151px;
+  margin-top: 20px;
+  color: #002366;
+  background: var(--white);
+}
+
+.subscription .image {
+  position: absolute;
+  right: 19.73%;
+  bottom: 0px;
 }
