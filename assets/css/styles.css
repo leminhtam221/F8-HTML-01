@@ -25,6 +25,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+html, body{
+  scroll-behavior: smooth;
+}
+
 /* ================= Common ================= */
 .container {
   width: 1110px;
