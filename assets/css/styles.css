@@ -425,7 +425,6 @@ a {
 
 .stat-social-block {
   width: 239px;
-  height: 252px;
   padding: 45px 22px 40px;
   position: absolute;
   top: 0;
@@ -484,4 +483,23 @@ a {
   line-height: 16.337px;
   font-weight: 400;
   background: var(--background, #1f3bb1);
+}
+
+.stat-qty {
+  margin-top: 110px;
+  display: flex;
+  gap: 220px;
+}
+
+.stat-qty .qty-number {
+  color: #000;
+  font-size: 6.4rem;
+  font-weight: 600;
+}
+
+.stat-qty .desc {
+  margin-top: 22px;
+  color: #7b8087;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
